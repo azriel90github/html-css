@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  htmlcss:
+    image: htmlcss
+    build:
+      context: .
+      dockerfile: ./Dockerfile
