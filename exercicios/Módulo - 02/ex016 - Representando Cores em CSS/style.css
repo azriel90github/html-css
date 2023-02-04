@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "UTF-8";/*Configuração Global para Erros de Acentuação*/
 * {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     /*height: 100%;*/
@@ -7,7 +7,7 @@
 body {
     background-image: linear-gradient(to left, #8C0327, #D9436B);
 }
-
+/*Tag Semântica que indica seção principal*/
 main {
     background-color: white;
     width: 600px;
@@ -16,17 +16,17 @@ main {
     border-radius: 30px;
     box-shadow: 5px 5px 15px #000000;
 }
-
+/*Configurações CSS da tag h1*/
 h1 {
     color: #8C0327;
     text-align: center;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 2px black;/*Sombra do texto*/
 }
-
+/*Configuração css para a cor do h2*/
 h2 {
     color: #161563;
 }
-
+/*Configuração para deixar o texto justificado*/
 p {
     text-align: justify;
 }

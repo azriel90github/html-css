@@ -7,36 +7,38 @@
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <title>Alinhamento Vertical</title>
     <style>
+        /*Id conteiner da tag (section)*/
         section#container {
             background-image: url('imagens/target001.png');
             background-size: 100% 100%;
 
-            position: relative;
+            position: relative;/*Posição/Relativa*/
             height: 96vh;
             padding: 10px;
             background-color: #800080;
         }
+        /*Id conteudo da tag (article)*/
         article#conteudo {
-            background-image: url('imagens/target001.png');
-            background-size: 100% 100%;
+            background-image: url('imagens/target001.png');/*Imagem de Fundo*/
+            background-size: 100% 100%;/*Tamanho do Fundo*/
 
 
             position: absolute;
-            height: 200px;
-            width: 400px;
-            background-color: #ffff00;
+            height: 200px;/*Altura*/
+            width: 400px;/*Largura*/
+            background-color: #ffff00;/*Cor de Fundo*/
             margin: auto;
 
-            left: 50%;
-            top: 50%; 
+            left: 50%;/*Esquerda*/
+            top: 50%;/*Cima*/ 
 
-            transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);/*Transformar a caixa no Site*/
         }
     </style>
 </head>
 <body>
-    <section id="container">
-        <article id="conteudo">
+    <section id="container"><!--Seção-->
+        <article id="conteudo"><!--Artigo-->
 
         </article>
     </section>
