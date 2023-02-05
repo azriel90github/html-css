@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Desafio 16</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 450px;
+        }
+        th#esquerdo  {
+            text-align: left;
+        }
+        th#cinza {
+            background-color: gray;
+            color: white;
+        }
+        th, tr, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        td.centro {
+            text-align: center;
+        }
+        td.alinhamento, td.alinhar {
+            text-align: center;
+        }
+        tr.cinza {
+            background-color: gray;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Desafio 16</h1>
+    <p>
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="2" id="cinza">Área</th>
+                    <th rowspan="2" id="cinza">Disciplinas</th>
+                    <th colspan="2" id="cinza">Notas</th>
+                    <th rowspan="2" id="cinza">Média</th>
+                    <tr class="cinza">
+                        <td class="centro">Nota 1</td>
+                        <td class="centro">Nota 2</td>
+                    </tr>
+                </tr>
+            </thead>
+            <tbody>
+                <th rowspan="5">Exatas</th>
+                <tr>
+                    <td>Matemática</td>
+                    <td class="alinhamento">0.0</td>
+                    <td class="alinhamento">0.0</td>
+                    <td class="alinhamento">0.0</td>
+                </tr>
+                <tr>
+                    <td>Física</td>
+                    <td class="alinhamento">0.0</td>
+                    <td class="alinhamento">0.0</td>
+                    <td class="alinhamento">0.0</td>
+                </tr>
+                <tr>
+                    <td>Química</td>
+                    <td class="alinhamento">0.0</td>
+                    <td class="alinhamento">0.0</td>
+                    <td class="alinhamento">0.0</td>
+                </tr>
+                <tr>
+                    <td>Biologia</td>
+                    <td class="alinhamento">0.0</td>
+                    <td class="alinhamento">0.0</td>
+                    <td class="alinhamento">0.0</td>
+                </tr>
+                <tr class="cinza">
+                    <th colspan="4" id="esquerdo">Média de Exatas</th>
+                    <td class="alinhamento">0.0</td>
+                </tr>
+              
+                <tr>
+                    <th rowspan="3">Humanas</th>
+                    <tr>
+                        <td>História</td>
+                        <td style="text-align: center;">0.0</td>
+                        <td style="text-align: center;">0.0</td>
+                        <td style="text-align: center;">0.0</td>
+                    </tr>
+                    <tr>
+                        <td>Geográfia</td>
+                        <td style="text-align: center;">0.0</td>
+                        <td style="text-align: center;">0.0</td>
+                        <td style="text-align: center;">0.0</td>
+                    </tr>
+                    <tr class="cinza">
+                        <td colspan="4">Média de Humanas</td>
+                        <td style="text-align: center;">0.0</td>
+                    </tr>
+                </tr>
+            </tbody>
+        </table>
+    </p>
+</body>
+</html>
